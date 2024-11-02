@@ -10,9 +10,13 @@ int add(int i, int j) {
     return result;
 }
 
+
 namespace py = pybind11;
 
-PYBIND11_MODULE(example, m) {
+PYBIND11_MODULE(pybind_example, m) {
+
+    init_logging();
+
     m.doc() = R"pbdoc(
         Pybind11 example plugin
         -----------------------

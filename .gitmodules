@@ -1,7 +1,0 @@
-[submodule "libs/plog"]
-	path = libs/plog
-	url = git@github.com:SergiusTheBest/plog.git
-[submodule "libs/pybind11"]
-	path = libs/pybind11
-	url = ../../pybind/pybind11
-	branch = stable
